@@ -1,0 +1,33 @@
+/* 
+
+css -  1 . Select element
+       2 . Style element
+
+3 way of using csss
+
+1 . Inline
+
+    <h1 style = "color : orange " > Oxiyoko </h1>
+
+
+2 . inside head
+
+    <head>
+        <style>
+            h1 {
+                color : orange;
+            }
+        </style>
+    </head>
+
+
+3 . Seperate css File
+
+    <link rel="stylesheet" href="style.css">
+    its to link css file to html file
+
+
+class and id
+
+
+*/
