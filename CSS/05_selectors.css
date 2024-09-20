@@ -1,0 +1,52 @@
+/* 
+
+
+1 . Universal Selector (*)
+
+    Select all elements
+
+    * {
+        margin : 0px;
+    }
+
+2 . Type Selector (type-name)
+
+    type of element selecting
+
+    p {
+        color : red;
+    }
+
+3 . Class selector (.)
+
+    .class_name {
+        color : red;
+    }
+
+4 . Id Selector (#)
+
+    #id-name {
+        color : red;
+    }
+
+5 . Attribute selector
+
+    you have to select the element and what kind of attribute are targeting
+
+    input[type = "text"] {
+        border : 10px solid black;
+    }
+
+6 . Descended Selector
+
+    it only select the p tag inside the article tag
+
+    article p {
+        font-style: italic;
+    }
+
+    Read from right to left
+
+7 . Child selector
+
+*/
