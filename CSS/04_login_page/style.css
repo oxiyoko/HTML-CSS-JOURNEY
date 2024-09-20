@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    display: flex;
+    color: rgb(66, 245, 11);
+    text-align: center;
+    margin: auto;
+    background-color: rgb(0, 0, 0);
+    margin-bottom: 7px;
+    padding: 7px;
+    border-radius: 7px;
+}
+
+button:hover {
+    background-color: rgb(128, 255, 1);
+    color: black;
+}
+h1 {
+    text-align: center;
+    color: black
+}
+
+input {
+    margin-bottom: 7px;
+    padding: 7px;
+    border-radius: 7px;
+    background-color: rgb(66, 245, 11);
+}
+
+.card {
+    background-color: rgb(161, 250, 161);
+    border-radius: 8px;
+    padding: 30px;
+    width: 300px;
+}
